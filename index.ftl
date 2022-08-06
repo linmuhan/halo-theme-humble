@@ -29,7 +29,7 @@
                 <#list pagination.rainbowPages as number>
                     <li>
                         <#if number.isCurrent>
-                            <span class="current">第 ${number.page!} 页</span>
+                            <span class="current">第d ${number.page!} 页</span>
                         <#else>
                             <a href="${number.fullPath!}">第 ${number.page!} 页</a>
                         </#if>
