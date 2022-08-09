@@ -1,5 +1,5 @@
-<#include "module/macro.ftl">
-<@layout title="标签列表 - ${blog_title!}">
+<#include "header.ftl">
+<@header title="标签列表 - ${blog_title!}">
     <h1>标签列表</h1>
     <ul>
         <@tagTag method="list">
@@ -10,4 +10,4 @@
             </#if>
         </@tagTag>
     </ul>
-</@layout>
+</@header>

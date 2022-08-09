@@ -1,5 +1,5 @@
-<#include "module/macro.ftl">
-<@layout title="归档 - ${blog_title!}">
+<#include "header.ftl">
+<@header title="归档 - ${blog_title!}">
     <h1>归档</h1>
     <ul>
         <#list archives as archive>
@@ -45,4 +45,4 @@
     <#else>
         <span>当前只有一页</span>
     </#if>
-</@layout>
+</@header>

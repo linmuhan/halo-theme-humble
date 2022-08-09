@@ -1,5 +1,5 @@
-<#include "module/macro.ftl">
-<@layout title="标签：${tag.name} - ${blog_title!}">
+<#include "header.ftl">
+<@header title="标签：${tag.name} - ${blog_title!}">
     <h1>标签：${tag.name}</h1>
     <ul>
         <#list posts.content as post>
@@ -42,4 +42,4 @@
     <#else>
         <span>当前只有一页</span>
     </#if>
-</@layout>
+</@header>
